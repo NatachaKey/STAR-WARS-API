@@ -5,7 +5,7 @@ This API is built with ReactJS and animated with tsparticles.
 
 ## Installation
 
-Get the project
+### Get the project
 git clone https://github.com/NatachaKey/STAR-WARS-API.git
 
 Change directory
