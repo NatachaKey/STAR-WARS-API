@@ -22,6 +22,7 @@ function App() {
     setLoading(true);
     axios.get(`https://swapi.dev/api/people/?page=${page}`).then(query => {
       setData(query.data.results);
+      console.log(query.data.results);
       setLoading(false);
     });
   }, [page]);
@@ -33,7 +34,7 @@ function App() {
            <img src={dart} alt="dartweider"></img>
       </div>
    
-      {loading ? <p>Loading...</p> : <CharactersCard data={data} />}
+      {loading ? <p>Loading...</p> : <CharactersCard  data={data} /> }
       {loading ? null : <p className="showPage">Page: {page}</p>}
 
       <div className="changePage">

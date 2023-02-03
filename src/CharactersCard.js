@@ -1,4 +1,5 @@
 import React from "react";
+import Films from './Films';
 
 function CardList(props) {
   return (
@@ -11,6 +12,7 @@ function CardList(props) {
             <p>Mass: {ele.mass}</p>
             <p>Hair color: {ele.hair_color}</p>
             <p>Birth year: {ele.birth_year}</p>
+            <p> <Films  /></p>
           </li>
         );
       })}

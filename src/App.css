@@ -64,3 +64,11 @@ img{
   display: flex;
 justify-content: center;
 }
+
+#movieStyle{
+border:none;
+font-size:10px;
+color: rgb(141, 89, 224);
+margin-top: 10px;
+padding: 10px;
+}
