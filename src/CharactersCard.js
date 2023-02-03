@@ -8,8 +8,8 @@ function CardList(props) {
         return (
           <li  key={indx}>
             <p id="name">Name: {ele.name}</p>
-            <p>Height: {ele.height}</p>
-            <p>Mass: {ele.mass}</p>
+            <p>Height: {ele.height} cm</p>
+            <p>Mass: {ele.mass} kg </p>
             <p>Hair color: {ele.hair_color}</p>
             <p>Birth year: {ele.birth_year}</p>
             <p> <Films  /></p>
