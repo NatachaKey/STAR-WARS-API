@@ -12,7 +12,7 @@ function CardList(props) {
             <p>Mass: {ele.mass}</p>
             <p>Hair color: {ele.hair_color}</p>
             <p>Birth year: {ele.birth_year}</p>
-            <p> <Films  /></p>
+            <p> <Films /></p>
           </li>
         );
       })}
