@@ -1,0 +1,66 @@
+.particles {
+  z-index: -1;
+}
+h1{
+  color:#FFEA20;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 2px;
+    
+}
+h1:hover{
+  color:#9DF1DF;
+}
+.button{
+  background-color: #FFCC00;
+  margin-top: 20px;
+  margin-left: 70px;
+  height: 50px;
+  width: 300px;
+  border: 2px solid #626265;
+  border-radius: 15px;
+  font-size: 20px;
+  text-shadow: 1px #626265;
+  text-align: center; 
+   font-family: 'Press Start 2P', cursive;
+}
+
+.button:hover {
+  background-color: #FFB103;
+  font-size: 22px;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+ li{
+  list-style-type: none;
+  border:#FFEA20 2px dashed;
+} 
+li:hover{
+  color:#FFCC00
+}
+.showPage, p{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.changePage{
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+img{
+  width:60px;
+  height:60px;
+  margin-top: 10px;
+}
+.header{
+  display: flex;
+justify-content: center;
+}
