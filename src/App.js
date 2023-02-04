@@ -56,7 +56,7 @@ function App() {
 export default App;
 
 
-//retching caracters info in class component
+//retching caracters info in class component with axios library
 // import { Component } from 'react';
 // import './App.css';
 
